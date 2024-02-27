@@ -1,14 +1,14 @@
 #include "Matrix.h"
 
-
+class Matrix;
 int main() {
   
     
-    Matrix mat1(3, 3);  // ìàòðèöà 1
-    mat1.fillRandom(); // çàïîëíÿåì îáå ìàòðèöû ñëó÷àéíûìè ÷èñëàìè
+    Matrix mat1(3, 3);  // матрица 1
+    mat1.fillRandom(); // заполняем обе матрицы случайными числами
 
-    Matrix mat2(3, 3); // ìàòðèöà 2
-    mat2.fillRandom(); // çàïîëíÿåì îáå ìàòðèöû ñëó÷àéíûìè ÷èñëàìè
+    Matrix mat2(3, 3); // матрица 2
+    mat2.fillRandom(); // заполняем обе матрицы случайными числами
 
 
     std::cout << "Matrix 1:" << std::endl << mat1;
